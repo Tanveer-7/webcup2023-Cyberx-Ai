@@ -14,6 +14,8 @@ function MainScreen() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+
+          
         >
           GET STARTED
         </Button>
@@ -24,6 +26,7 @@ function MainScreen() {
           onClick={console.log('hey')}
         >
           TRIAL 
+          
         </Button>
       </div>
     </div>

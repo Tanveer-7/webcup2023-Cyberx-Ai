@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
-          <Route path='/getstarted' component={GetStarted} />
+          <Route path = "https://cyberx.maurice.webcup.hodi.host/project2/index.html"component={GetStarted} />
           <Route path='/login' component={Login} />
           <Route path='/about' component={About} />
           <Route path='/sign-up' component={SignUp} />

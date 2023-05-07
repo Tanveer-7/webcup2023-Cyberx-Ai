@@ -7,6 +7,12 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -44,7 +50,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/GetStarted'
+                to="/project2/index.html"
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
